@@ -1,4 +1,4 @@
-package ru.frigesty.pages;
+package ru.frigesty;
 
 import io.qameta.allure.Step;
 
@@ -10,8 +10,8 @@ import static com.codeborne.selenide.Selenide.open;
 public class WebSteps {
 
     @Step("Открываем главную страницу")
-    public void openMainPage(String site) {
-        open(site);
+    public void openMainPage() {
+        open("");
     }
 
     @Step("Кликаем по кнопке Сообщество")
